@@ -182,7 +182,7 @@ header h1 {
   text-transform: uppercase;
   color: #1560bd;
   text-align: center;
-  line-height:1;
+  line-height:2;
   letter-spacing:1px;
   padding: 14px 20px 4px;
 }
@@ -390,6 +390,9 @@ h1,h2,h3,h4,h5,h6 {
 
 p {
   margin: .7em 0;
+  color: #1560BD;
+  font-style: italic;
+  text-align: center;
 }
 
 strong {
@@ -428,7 +431,7 @@ img {
   
   box-shadow: 0px 0px 0px #bdb6ad;
   border: 2px solid  #e6e6fa;
-  max-width: 502px;
+  max-width: 800px;
 }
 
 hr {
@@ -524,7 +527,7 @@ margin: 0px 0px 1em}
 }
 
 .medals2 img {
-margin: 1em 1em; 
+margin: auto;
 max-height: 77px;
 max-width: 77px;}
 
