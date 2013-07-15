@@ -61,7 +61,7 @@
    License: none (public domain)
 */
 
-html, body, div, span, applet, object, iframe,
+html, body, avatar, div, span, applet, object, iframe, medals,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
@@ -114,7 +114,7 @@ header, footer, section {
 
 div.shell {
   display: block;
-  width: 670px;
+  width:  auto;
   margin: 0 auto;
 }
 
@@ -175,19 +175,20 @@ header span.right-tail {
 }
 
 header h1 {
-  background-color: #7c334f;
-  font-size: 2.5em;
+  background-color:  #e6e6fa;
+  font-size: 3.0em;
   font-weight: 800;
-  font-style: normal;
+  font-style:italic;
   text-transform: uppercase;
-  color: #ece4d8;
+  color: #1560bd;
   text-align: center;
   line-height:1;
-  padding: 14px 20px 0;
+  letter-spacing:1px;
+  padding: 14px 20px 4px;
 }
 
 header h2 {
-  background-color: #7c334f;
+  background-color: #e6e6fa;
   font: bold italic .85em/1.5 Georgia, Times, “Times New Roman”, serif;
   color: #e69b95;
   padding-bottom: 14px;
@@ -364,7 +365,7 @@ footer span.octocat {
 /* content */
 
 body {
-  background: #ece4d8;
+  background: #e6e6fa;
   font: normal normal 15px/1.5 Georgia, Palatino,” Palatino Linotype”, Times, “Times New Roman”, serif;
   color: #544943;
   -webkit-font-smoothing: antialiased;
@@ -424,10 +425,9 @@ blockquote {
 }
 
 img {
-  -webkit-box-shadow: 0px 2px 0px #bdb6ad;
-  -moz-box-shadow: 0px 2px 0px #bdb6ad;
-  box-shadow: 0px 2px 0px #bdb6ad;
-  border: 2px solid #fff6e9;
+  
+  box-shadow: 0px 0px 0px #bdb6ad;
+  border: 2px solid  #e6e6fa;
   max-width: 502px;
 }
 
@@ -516,6 +516,65 @@ dd p:first-child {
 
 /* Content based headers */
 
+.avatar {
+text-align: center;
+width: auto;
+padding: 33px;
+margin: 0px 0px 1em}
+}
+
+.medals2 img {
+margin: 1em 1em; 
+max-height: 77px;
+max-width: 77px;}
+
+.medals2 {
+width: auto;
+margin: 0px 1em;
+padding: 0px;
+text-align: center;
+color: #000;
+}
+
+.medals3 img {
+margin: auto;
+max-height: 77px;
+max-width: 77px;}
+
+.medals3 {
+width: auto;
+margin: 0px 1em;
+padding: 0px;
+text-align: center;
+color: #000;
+}
+
+.medals4 img {
+margin: auto;
+max-height: 77px;
+max-width: 77px;}
+
+.medals4 {
+width: auto;
+margin: 0px 1em;
+padding: 0px;
+text-align: center;
+color: #000;
+}
+
+.medals5 img {
+margin: auto;
+max-height: 77px;
+max-width: 77px;}
+
+.medals5 {
+width: auto;
+margin: 0px 1em;
+padding: 0px;
+text-align: center;
+color: #000;
+}
+
 #main_content > .header-level-1:first-child,
 #main_content > .header-level-2:first-child,
 #main_content > .header-level-3:first-child,
@@ -527,39 +586,57 @@ dd p:first-child {
 
 .header-level-1 {
   font-size: 1.85em;
-  border-bottom: .2em double #d3ccc1;
-  color: #7c334f;
+  border-bottom: .1em solid #e6e6fa;
+  color: #1560bd;
   text-align: center;
   font-style: italic;
   margin: 1.1em 0 .38em;
-  line-height: 1.2;
+  line-height: 1;
   padding-bottom: 10px
 }
 
 .header-level-2 {
-  font-size: 1.58em;
-  color: #7c334f;
+  font-size: 1.85em;
+  color: #1560bd;
+  text-align: center;
+  font-style:italic;
   margin: .95em 0 .5em;
-  border-bottom: .1em solid #D3CCC1;
-  line-height: 1.2;
+  border-bottom: .1em solid #e6e6fa;
+  line-height: 1;
   padding-bottom: 10px
 }
 
 .header-level-3 {
-  margin: 20px 0 10px;
-  font-size: 1.45em;
+font-size: 1.85em;
+  color: #1560bd;
+  text-align: center;
+  font-style:italic;
+  margin: .95em 0 .5em;
+  border-bottom: .1em solid #e6e6fa;
+  line-height: 1;
+  padding-bottom: 10px
 }
 
 .header-level-4 {
-  margin: .6em 0;
-  font-size: 1.2em;
-  color: #cd596b;
+font-size: 1.85em;
+  color: #1560bd;
+  text-align: center;
+  font-style:italic;
+  margin: .95em 0 .5em;
+  border-bottom: .1em solid #e6e6fa;
+  line-height: 1;
+  padding-bottom: 10px
 }
 
 .header-level-5 {
-  margin: .7em 0;
-  font-size: 1em;
-  color: #8b786f;
+font-size: 1.85em;
+  color: #1560bd;
+  text-align: center;
+  font-style:italic;
+  margin: .95em 0 .5em;
+  border-bottom: .1em solid #e6e6fa;
+  line-height: 1;
+  padding-bottom: 10px
 }
 
 .header-level-6 {
